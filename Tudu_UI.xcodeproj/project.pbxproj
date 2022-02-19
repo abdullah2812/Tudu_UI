@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4628CF27C15323006EFAB1 /* buttonXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628CE27C15323006EFAB1 /* buttonXib.xib */; };
+		DC4628D427C15338006EFAB1 /* buttonXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4628D327C15338006EFAB1 /* buttonXib.swift */; };
+		DC4628DE27C15ACA006EFAB1 /* BtnCreate.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */; };
+		DC4628E327C15ADD006EFAB1 /* BtnCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4628E227C15ADD006EFAB1 /* BtnCreate.swift */; };
+		DC4628E927C1677B006EFAB1 /* BtnGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4628E827C1677B006EFAB1 /* BtnGoogle.swift */; };
+		DC4628F127C16788006EFAB1 /* BtnGoogle.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628F027C16788006EFAB1 /* BtnGoogle.xib */; };
 		DC82B50927C0CE2700EDAEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82B50827C0CE2700EDAEA0 /* AppDelegate.swift */; };
 		DC82B50B27C0CE2700EDAEA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82B50A27C0CE2700EDAEA0 /* SceneDelegate.swift */; };
 		DC82B50D27C0CE2700EDAEA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82B50C27C0CE2700EDAEA0 /* ViewController.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC4628CE27C15323006EFAB1 /* buttonXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buttonXib.xib; sourceTree = "<group>"; };
+		DC4628D327C15338006EFAB1 /* buttonXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonXib.swift; sourceTree = "<group>"; };
+		DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BtnCreate.xib; sourceTree = "<group>"; };
+		DC4628E227C15ADD006EFAB1 /* BtnCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnCreate.swift; sourceTree = "<group>"; };
+		DC4628E827C1677B006EFAB1 /* BtnGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnGoogle.swift; sourceTree = "<group>"; };
+		DC4628F027C16788006EFAB1 /* BtnGoogle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BtnGoogle.xib; sourceTree = "<group>"; };
 		DC82B50527C0CE2600EDAEA0 /* Tudu_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tudu_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC82B50827C0CE2700EDAEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC82B50A27C0CE2700EDAEA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC4628D827C1533E006EFAB1 /* ButtonXib */ = {
+			isa = PBXGroup;
+			children = (
+				DC4628CE27C15323006EFAB1 /* buttonXib.xib */,
+				DC4628D327C15338006EFAB1 /* buttonXib.swift */,
+			);
+			path = ButtonXib;
+			sourceTree = "<group>";
+		};
+		DC4628DC27C15A95006EFAB1 /* ButtonCreate */ = {
+			isa = PBXGroup;
+			children = (
+				DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */,
+				DC4628E227C15ADD006EFAB1 /* BtnCreate.swift */,
+			);
+			path = ButtonCreate;
+			sourceTree = "<group>";
+		};
+		DC4628E727C16764006EFAB1 /* ButtonGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				DC4628E827C1677B006EFAB1 /* BtnGoogle.swift */,
+				DC4628F027C16788006EFAB1 /* BtnGoogle.xib */,
+			);
+			path = ButtonGoogle;
+			sourceTree = "<group>";
+		};
 		DC82B4FC27C0CE2600EDAEA0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +140,9 @@
 		DC82B50727C0CE2600EDAEA0 /* Tudu_UI */ = {
 			isa = PBXGroup;
 			children = (
+				DC4628E727C16764006EFAB1 /* ButtonGoogle */,
+				DC4628DC27C15A95006EFAB1 /* ButtonCreate */,
+				DC4628D827C1533E006EFAB1 /* ButtonXib */,
 				DC82B50827C0CE2700EDAEA0 /* AppDelegate.swift */,
 				DC82B50A27C0CE2700EDAEA0 /* SceneDelegate.swift */,
 				DC82B50C27C0CE2700EDAEA0 /* ViewController.swift */,
@@ -235,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC82B51827C0CE2A00EDAEA0 /* LaunchScreen.storyboard in Resources */,
+				DC4628CF27C15323006EFAB1 /* buttonXib.xib in Resources */,
 				DC82B51527C0CE2A00EDAEA0 /* Assets.xcassets in Resources */,
+				DC4628DE27C15ACA006EFAB1 /* BtnCreate.xib in Resources */,
 				DC82B51027C0CE2700EDAEA0 /* Main.storyboard in Resources */,
+				DC4628F127C16788006EFAB1 /* BtnGoogle.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC82B50D27C0CE2700EDAEA0 /* ViewController.swift in Sources */,
+				DC4628D427C15338006EFAB1 /* buttonXib.swift in Sources */,
+				DC4628E927C1677B006EFAB1 /* BtnGoogle.swift in Sources */,
+				DC4628E327C15ADD006EFAB1 /* BtnCreate.swift in Sources */,
 				DC82B50927C0CE2700EDAEA0 /* AppDelegate.swift in Sources */,
 				DC82B50B27C0CE2700EDAEA0 /* SceneDelegate.swift in Sources */,
 				DC82B51327C0CE2700EDAEA0 /* Tudu_UI.xcdatamodeld in Sources */,
