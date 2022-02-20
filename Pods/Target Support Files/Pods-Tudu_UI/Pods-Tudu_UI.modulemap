@@ -1,0 +1,6 @@
+framework module Pods_Tudu_UI {
+  umbrella header "Pods-Tudu_UI-umbrella.h"
+
+  export *
+  module * { export * }
+}

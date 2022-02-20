@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1A01C4CC3F6C8C9DE47FAC /* Pods_Tudu_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7B219F1DF4FFAD1035954A /* Pods_Tudu_UI.framework */; };
+		86672121F30DCC9731CAB0A1 /* Pods_Tudu_UI_Tudu_UIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EE2921287EC00AB33C01BC /* Pods_Tudu_UI_Tudu_UIUITests.framework */; };
+		94B6D4516420FD7CD8BBE107 /* Pods_Tudu_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142022F59970FDAE66CF8DE7 /* Pods_Tudu_UITests.framework */; };
+		DC3C5E1927C2014E007747C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3C5E1827C2014E007747C0 /* GoogleService-Info.plist */; };
+		DC3C5E1F27C21906007747C0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = DC3C5E1E27C21906007747C0 /* GoogleSignIn */; };
 		DC4628CF27C15323006EFAB1 /* buttonXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628CE27C15323006EFAB1 /* buttonXib.xib */; };
 		DC4628D427C15338006EFAB1 /* buttonXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4628D327C15338006EFAB1 /* buttonXib.swift */; };
 		DC4628DE27C15ACA006EFAB1 /* BtnCreate.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */; };
@@ -42,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10F1069C73782FA52F233D72 /* Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig"; path = "Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		142022F59970FDAE66CF8DE7 /* Pods_Tudu_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tudu_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EE2921287EC00AB33C01BC /* Pods_Tudu_UI_Tudu_UIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tudu_UI_Tudu_UIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		332270E88BE6D1703BFDC66A /* Pods-Tudu_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UITests.release.xcconfig"; path = "Target Support Files/Pods-Tudu_UITests/Pods-Tudu_UITests.release.xcconfig"; sourceTree = "<group>"; };
+		899C3A0C90E8A289F0506337 /* Pods-Tudu_UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI.debug.xcconfig"; path = "Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI.debug.xcconfig"; sourceTree = "<group>"; };
+		B77941F2641FD55BF6B96EBC /* Pods-Tudu_UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI.release.xcconfig"; path = "Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI.release.xcconfig"; sourceTree = "<group>"; };
+		D660DA896B2D325E24861FBF /* Pods-Tudu_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UITests.debug.xcconfig"; path = "Target Support Files/Pods-Tudu_UITests/Pods-Tudu_UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3C5E1827C2014E007747C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DC4628CE27C15323006EFAB1 /* buttonXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buttonXib.xib; sourceTree = "<group>"; };
 		DC4628D327C15338006EFAB1 /* buttonXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonXib.swift; sourceTree = "<group>"; };
 		DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BtnCreate.xib; sourceTree = "<group>"; };
@@ -63,6 +76,8 @@
 		DC82B52927C0CE2A00EDAEA0 /* Tudu_UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tudu_UIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC82B52D27C0CE2A00EDAEA0 /* Tudu_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tudu_UIUITests.swift; sourceTree = "<group>"; };
 		DC82B52F27C0CE2A00EDAEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2237512A3B44E72F2ADB9B /* Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7B219F1DF4FFAD1035954A /* Pods_Tudu_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tudu_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E1A01C4CC3F6C8C9DE47FAC /* Pods_Tudu_UI.framework in Frameworks */,
+				DC3C5E1F27C21906007747C0 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B6D4516420FD7CD8BBE107 /* Pods_Tudu_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86672121F30DCC9731CAB0A1 /* Pods_Tudu_UI_Tudu_UIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F7BA7D071B228355667DE5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7B219F1DF4FFAD1035954A /* Pods_Tudu_UI.framework */,
+				29EE2921287EC00AB33C01BC /* Pods_Tudu_UI_Tudu_UIUITests.framework */,
+				142022F59970FDAE66CF8DE7 /* Pods_Tudu_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DD62B534779FC411F58427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				899C3A0C90E8A289F0506337 /* Pods-Tudu_UI.debug.xcconfig */,
+				B77941F2641FD55BF6B96EBC /* Pods-Tudu_UI.release.xcconfig */,
+				DF2237512A3B44E72F2ADB9B /* Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig */,
+				10F1069C73782FA52F233D72 /* Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig */,
+				D660DA896B2D325E24861FBF /* Pods-Tudu_UITests.debug.xcconfig */,
+				332270E88BE6D1703BFDC66A /* Pods-Tudu_UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC4628D827C1533E006EFAB1 /* ButtonXib */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +166,8 @@
 				DC82B52127C0CE2A00EDAEA0 /* Tudu_UITests */,
 				DC82B52C27C0CE2A00EDAEA0 /* Tudu_UIUITests */,
 				DC82B50627C0CE2600EDAEA0 /* Products */,
+				A9DD62B534779FC411F58427 /* Pods */,
+				2F7BA7D071B228355667DE5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +194,7 @@
 				DC82B51427C0CE2A00EDAEA0 /* Assets.xcassets */,
 				DC82B51627C0CE2A00EDAEA0 /* LaunchScreen.storyboard */,
 				DC82B51927C0CE2A00EDAEA0 /* Info.plist */,
+				DC3C5E1827C2014E007747C0 /* GoogleService-Info.plist */,
 				DC82B51127C0CE2700EDAEA0 /* Tudu_UI.xcdatamodeld */,
 			);
 			path = Tudu_UI;
@@ -180,15 +225,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC82B53227C0CE2A00EDAEA0 /* Build configuration list for PBXNativeTarget "Tudu_UI" */;
 			buildPhases = (
+				0C4CEE9897F85D1E8158D576 /* [CP] Check Pods Manifest.lock */,
 				DC82B50127C0CE2600EDAEA0 /* Sources */,
 				DC82B50227C0CE2600EDAEA0 /* Frameworks */,
 				DC82B50327C0CE2600EDAEA0 /* Resources */,
+				6D9B58F1A1716ABCCCAA006F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Tudu_UI;
+			packageProductDependencies = (
+				DC3C5E1E27C21906007747C0 /* GoogleSignIn */,
+			);
 			productName = Tudu_UI;
 			productReference = DC82B50527C0CE2600EDAEA0 /* Tudu_UI.app */;
 			productType = "com.apple.product-type.application";
@@ -197,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC82B53527C0CE2A00EDAEA0 /* Build configuration list for PBXNativeTarget "Tudu_UITests" */;
 			buildPhases = (
+				167F19EA4B4C28F959F79206 /* [CP] Check Pods Manifest.lock */,
 				DC82B51A27C0CE2A00EDAEA0 /* Sources */,
 				DC82B51B27C0CE2A00EDAEA0 /* Frameworks */,
 				DC82B51C27C0CE2A00EDAEA0 /* Resources */,
@@ -215,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC82B53827C0CE2A00EDAEA0 /* Build configuration list for PBXNativeTarget "Tudu_UIUITests" */;
 			buildPhases = (
+				965489A947411231FF8CD82B /* [CP] Check Pods Manifest.lock */,
 				DC82B52527C0CE2A00EDAEA0 /* Sources */,
 				DC82B52627C0CE2A00EDAEA0 /* Frameworks */,
 				DC82B52727C0CE2A00EDAEA0 /* Resources */,
+				6AAC304BFD565792510FF7F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +313,9 @@
 				Base,
 			);
 			mainGroup = DC82B4FC27C0CE2600EDAEA0;
+			packageReferences = (
+				DC3C5E1D27C21906007747C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = DC82B50627C0CE2600EDAEA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -282,6 +338,7 @@
 				DC4628DE27C15ACA006EFAB1 /* BtnCreate.xib in Resources */,
 				DC82B51027C0CE2700EDAEA0 /* Main.storyboard in Resources */,
 				DC4628F127C16788006EFAB1 /* BtnGoogle.xib in Resources */,
+				DC3C5E1927C2014E007747C0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +357,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C4CEE9897F85D1E8158D576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tudu_UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167F19EA4B4C28F959F79206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tudu_UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AAC304BFD565792510FF7F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9B58F1A1716ABCCCAA006F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		965489A947411231FF8CD82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tudu_UI-Tudu_UIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC82B50127C0CE2600EDAEA0 /* Sources */ = {
@@ -485,6 +645,7 @@
 		};
 		DC82B53327C0CE2A00EDAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899C3A0C90E8A289F0506337 /* Pods-Tudu_UI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +665,7 @@
 		};
 		DC82B53427C0CE2A00EDAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77941F2641FD55BF6B96EBC /* Pods-Tudu_UI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -523,6 +685,7 @@
 		};
 		DC82B53627C0CE2A00EDAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D660DA896B2D325E24861FBF /* Pods-Tudu_UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -545,6 +708,7 @@
 		};
 		DC82B53727C0CE2A00EDAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332270E88BE6D1703BFDC66A /* Pods-Tudu_UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -567,6 +731,7 @@
 		};
 		DC82B53927C0CE2A00EDAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2237512A3B44E72F2ADB9B /* Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +752,7 @@
 		};
 		DC82B53A27C0CE2A00EDAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F1069C73782FA52F233D72 /* Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -645,6 +811,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC3C5E1D27C21906007747C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC3C5E1E27C21906007747C0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3C5E1D27C21906007747C0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DC82B51127C0CE2700EDAEA0 /* Tudu_UI.xcdatamodeld */ = {
