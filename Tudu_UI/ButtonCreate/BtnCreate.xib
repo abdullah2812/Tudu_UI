@@ -20,6 +20,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEg-Sh-672">
                     <rect key="frame" x="0.0" y="0.0" width="299" height="50"/>
                     <color key="backgroundColor" red="0.22352941176470587" green="0.50196078431372548" blue="0.99215686274509807" alpha="0.1679152397260274" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                     <state key="normal" title="Button"/>
                 </button>
             </subviews>

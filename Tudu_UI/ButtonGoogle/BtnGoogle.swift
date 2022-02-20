@@ -8,13 +8,31 @@
 import UIKit
 
 class BtnGoogle: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    @IBOutlet weak var btnGoogle: UIButton!
+    
+    override init(frame:CGRect){
+        super.init(frame: frame)
+        commonInit()
     }
-    */
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        commonInit()
+    }
+    
+    func commonInit()  {
+        let nibName = String(describing: BtnGoogle.self)
+        let view = Bundle.main.loadNibNamed(nibName, owner: self, options: nil)![0] as! UIView
+        view.frame = bounds
+        addSubview(view)
+        backgroundColor = .clear
+    }
+    
+    func btnBorder() {
+        btnGoogle.layer.cornerRadius = 10
+    }
+    
+    
 
 }

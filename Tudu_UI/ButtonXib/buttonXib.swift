@@ -7,11 +7,11 @@
 
 import UIKit
 
-class buttonXib: UIView {
-    
+class buttonXib: UIView,UINavigationControllerDelegate,UITextFieldDelegate {
     
     @IBOutlet weak var btnXib: UIButton!
     
+    var delegate : ButtonSendDataProtocol!
     
     override init(frame:CGRect){
         super.init(frame: frame)
@@ -29,11 +29,21 @@ class buttonXib: UIView {
         view.frame = bounds
         addSubview(view)
         backgroundColor = .clear
+        btnXib.addTarget(self, action: #selector(targetButton), for: .touchUpInside)
     }
     
-    func btn(title:String)  {
+    @objc func targetButton(){
+        delegate.clickButton()
+    }
+    
+    func btn(title:String) {
         btnXib.setTitle(title, for: .normal)
         btnXib.layer.cornerRadius = 10
     }
+    
+    
+}
 
+protocol ButtonSendDataProtocol {
+    func clickButton()
 }

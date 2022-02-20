@@ -8,8 +8,10 @@
 import UIKit
 
 class BtnCreate: UIView {
+    
 
     @IBOutlet weak var btnCreate: UIButton!
+    
     
     override init(frame:CGRect){
         super.init(frame: frame)
@@ -36,4 +38,11 @@ class BtnCreate: UIView {
         btnCreate.layer.borderColor = #colorLiteral(red: 0.1607843137, green: 0.2039215686, blue: 0.8156862745, alpha: 1)
     }
     
+//    @objc func targetButton(){
+//        delegate.clickButton()
+//    }
 }
+//
+//protocol ButtonSendDataProtokol {
+//    func clickButton()
+//}

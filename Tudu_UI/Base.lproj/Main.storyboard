@@ -48,10 +48,12 @@
                                     <constraint firstAttribute="height" constant="57" id="9Jd-Fb-MXd"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="icW-h1-A7B">
-                                <rect key="frame" x="38" y="734" width="338" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icW-h1-A7B" customClass="BtnGoogle" customModule="Tudu_UI" customModuleProvider="target">
+                                <rect key="frame" x="38" y="724" width="338" height="57"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="DVK-Yj-6bh"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,15 +71,19 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XlB-Nq-07n" secondAttribute="trailing" constant="97" id="IHi-ia-Iyj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rEQ-8X-R1e" secondAttribute="trailing" constant="38" id="J7I-Zb-CdE"/>
                             <constraint firstItem="Pap-rn-iXB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="215" id="ToI-rZ-IhB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="icW-h1-A7B" secondAttribute="trailing" constant="38" id="bM1-tT-t2s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MlC-8b-CNY" secondAttribute="trailing" constant="72" id="dUE-pz-gA9"/>
+                            <constraint firstItem="icW-h1-A7B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="dbX-Y2-o71"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LBG-WR-FTt" secondAttribute="trailing" constant="38" id="dwX-nC-PSb"/>
                             <constraint firstItem="rEQ-8X-R1e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="mqo-NY-IEk"/>
                             <constraint firstItem="LBG-WR-FTt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="ppt-75-bQI"/>
                             <constraint firstItem="MlC-8b-CNY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="rQw-kD-8cb"/>
+                            <constraint firstItem="icW-h1-A7B" firstAttribute="top" secondItem="LBG-WR-FTt" secondAttribute="bottom" constant="25" id="uxN-ff-iLJ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="btnCreate" destination="LBG-WR-FTt" id="jwL-ab-7pc"/>
+                        <outlet property="btnGoogle" destination="icW-h1-A7B" id="CXw-lD-9g8"/>
                         <outlet property="btnSignIn" destination="rEQ-8X-R1e" id="aTH-RO-BKA"/>
                     </connections>
                 </viewController>
