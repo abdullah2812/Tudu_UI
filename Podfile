@@ -8,6 +8,7 @@ target 'Tudu_UI' do
 pod 'Firebase/Auth'
 pod 'GoogleSignIn'
 
+
   # Pods for Tudu_UI
 
   target 'Tudu_UITests' do

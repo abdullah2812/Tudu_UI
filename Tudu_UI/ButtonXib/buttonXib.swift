@@ -40,8 +40,6 @@ class buttonXib: UIView,UINavigationControllerDelegate,UITextFieldDelegate {
         btnXib.setTitle(title, for: .normal)
         btnXib.layer.cornerRadius = 10
     }
-    
-    
 }
 
 protocol ButtonSendDataProtocol {

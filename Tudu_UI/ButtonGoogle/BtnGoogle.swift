@@ -7,9 +7,11 @@
 
 import UIKit
 
-class BtnGoogle: UIView {
+class BtnGoogle: UIView,UINavigationControllerDelegate,UITextFieldDelegate {
     
     @IBOutlet weak var btnGoogle: UIButton!
+    
+    var dataGoogle : ButtonSendGoogle!
     
     override init(frame:CGRect){
         super.init(frame: frame)
@@ -27,12 +29,21 @@ class BtnGoogle: UIView {
         view.frame = bounds
         addSubview(view)
         backgroundColor = .clear
+        btnGoogle.addTarget(self, action: #selector(targetButton), for: .touchUpInside)
+    }
+    
+    @objc func targetButton(){
+        dataGoogle.btnDataGoogle()
     }
     
     func btnBorder() {
         btnGoogle.layer.cornerRadius = 10
     }
-    
-    
-
 }
+
+protocol ButtonSendGoogle {
+    func btnDataGoogle()
+    
+}
+
+
