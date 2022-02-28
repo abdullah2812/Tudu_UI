@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleSignIn
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //delay splashscreen
         Thread.sleep(forTimeInterval: 2.0)
+        FirebaseApp.configure()
         // Override point for customization after application launch.
         return true
     }

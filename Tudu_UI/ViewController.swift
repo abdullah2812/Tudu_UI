@@ -7,8 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,ButtonSendDataProtocol {
-    
+class ViewController: UIViewController,ButtonSendDataProtocol, ButtonSendDataGoogle {
     
     @IBOutlet weak var btnSignIn: buttonXib!
     
@@ -16,22 +15,21 @@ class ViewController: UIViewController,ButtonSendDataProtocol {
     
     @IBOutlet weak var btnGoogle: BtnGoogle!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         btnSignIn.btn(title: "Sign In")
         btnCreate.btnCreate(title: "Create New Account")
         btnGoogle.btnBorder()
         btnSignIn.delegate = self
-        
-        // Do any additional setup after loading the view.
+        btnGoogle.delegate = self
     }
     
     func clickButton() {
         print("click")
     }
-
-
-
+    
+    func click() {
+        print("google")
+    }
 }
 

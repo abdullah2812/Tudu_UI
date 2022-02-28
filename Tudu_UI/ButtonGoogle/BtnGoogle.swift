@@ -11,6 +11,8 @@ class BtnGoogle: UIView {
     
     @IBOutlet weak var btnGoogle: UIButton!
     
+    var delegate : ButtonSendDataGoogle!
+        
     override init(frame:CGRect){
         super.init(frame: frame)
         commonInit()
@@ -27,12 +29,17 @@ class BtnGoogle: UIView {
         view.frame = bounds
         addSubview(view)
         backgroundColor = .clear
+        btnGoogle.addTarget(self, action: #selector(buttonGoogle), for: .touchUpInside)
     }
     
+    @objc func buttonGoogle(){
+        delegate.click()
+    }
     func btnBorder() {
         btnGoogle.layer.cornerRadius = 10
     }
-    
-    
+}
 
+protocol ButtonSendDataGoogle {
+    func click()
 }
