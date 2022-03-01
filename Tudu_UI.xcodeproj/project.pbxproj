@@ -26,6 +26,7 @@
 		DC82B52327C0CE2A00EDAEA0 /* Tudu_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82B52227C0CE2A00EDAEA0 /* Tudu_UITests.swift */; };
 		DC82B52E27C0CE2A00EDAEA0 /* Tudu_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC82B52D27C0CE2A00EDAEA0 /* Tudu_UIUITests.swift */; };
 		DCCA1A7727CCAC87001A1B12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCA1A7627CCAC87001A1B12 /* GoogleService-Info.plist */; };
+		DCCA1A9127CDC9A8001A1B12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA1A9027CDC9A8001A1B12 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		DC82B52D27C0CE2A00EDAEA0 /* Tudu_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tudu_UIUITests.swift; sourceTree = "<group>"; };
 		DC82B52F27C0CE2A00EDAEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCCA1A7627CCAC87001A1B12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCCA1A9027CDC9A8001A1B12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EE2F5E8B0970D920886C1671 /* Pods-Tudu_UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UITests.release.xcconfig"; path = "Target Support Files/Pods-Tudu_UITests/Pods-Tudu_UITests.release.xcconfig"; sourceTree = "<group>"; };
 		EEAECFECC679F93C519751D6 /* Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB359D37A3FA49A045E8D34C /* Pods-Tudu_UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI.debug.xcconfig"; path = "Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				DCCA1A7627CCAC87001A1B12 /* GoogleService-Info.plist */,
 				DC82B51927C0CE2A00EDAEA0 /* Info.plist */,
 				DC82B51127C0CE2700EDAEA0 /* Tudu_UI.xcdatamodeld */,
+				DCCA1A9027CDC9A8001A1B12 /* HomeViewController.swift */,
 			);
 			path = Tudu_UI;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				DC82B50227C0CE2600EDAEA0 /* Frameworks */,
 				DC82B50327C0CE2600EDAEA0 /* Resources */,
 				F942785BCCF62B4FAFADA269 /* [CP] Embed Pods Frameworks */,
+				814736C920EB210963033C9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +270,7 @@
 				DC82B52627C0CE2A00EDAEA0 /* Frameworks */,
 				DC82B52727C0CE2A00EDAEA0 /* Resources */,
 				960DBE9A16D113996C23760B /* [CP] Embed Pods Frameworks */,
+				432113976431ECCA8EFFC92A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,6 +400,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		432113976431ECCA8EFFC92A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		48A184835E8BB8FB3BA28649 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +437,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814736C920EB210963033C9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tudu_UI/Pods-Tudu_UI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		960DBE9A16D113996C23760B /* [CP] Embed Pods Frameworks */ = {
@@ -461,6 +500,7 @@
 				DC82B50D27C0CE2700EDAEA0 /* ViewController.swift in Sources */,
 				DC4628D427C15338006EFAB1 /* buttonXib.swift in Sources */,
 				DC4628E927C1677B006EFAB1 /* BtnGoogle.swift in Sources */,
+				DCCA1A9127CDC9A8001A1B12 /* HomeViewController.swift in Sources */,
 				DC4628E327C15ADD006EFAB1 /* BtnCreate.swift in Sources */,
 				DC82B50927C0CE2700EDAEA0 /* AppDelegate.swift in Sources */,
 				DC82B50B27C0CE2700EDAEA0 /* SceneDelegate.swift in Sources */,

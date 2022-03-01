@@ -8,7 +8,7 @@ target 'Tudu_UI' do
   # Pods for Tudu_UI
 
 pod 'Firebase/Auth'
-pod 'GoogleSignIn' 
+pod 'GoogleSignIn','~> 5.0' 
 
   target 'Tudu_UITests' do
     inherit! :search_paths

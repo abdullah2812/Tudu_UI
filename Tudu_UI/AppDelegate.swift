@@ -12,11 +12,22 @@ import GoogleSignIn
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    @available(iOS 9.0, *)
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any])
+      -> Bool {
+        return GIDSignIn.sharedInstance().handle(url)
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url)
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //delay splashscreen
         Thread.sleep(forTimeInterval: 2.0)
         FirebaseApp.configure()
+        GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
         // Override point for customization after application launch.
         return true
     }
