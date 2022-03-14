@@ -67,7 +67,7 @@ class ViewController: UIViewController,ButtonSendDataProtocol, ButtonSendDataGoo
     
     func clickButton() {
         
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "home") as? HomeViewController
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "register") as? RegisterViewController
         self.navigationController?.pushViewController(vc!, animated: true)
         
     }
