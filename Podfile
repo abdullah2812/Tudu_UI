@@ -7,6 +7,8 @@ target 'Tudu_UI' do
 
   # Pods for Tudu_UI
 
+pod 'AEOTPTextField'
+
 pod 'Firebase/Auth'
 pod 'GoogleSignIn','~> 5.0' 
 

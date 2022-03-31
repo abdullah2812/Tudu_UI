@@ -10,6 +10,7 @@
 		038751C4FAD1ADAAF98A088B /* Pods_Tudu_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FAAC2CAA464D60F074B40DD /* Pods_Tudu_UITests.framework */; };
 		AAED5723035B71E8206C30D3 /* Pods_Tudu_UI_Tudu_UIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC461B34B44C1339C87447C /* Pods_Tudu_UI_Tudu_UIUITests.framework */; };
 		C935A81CF8FF3202217534A1 /* Pods_Tudu_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363261B39B90B47F80F87A67 /* Pods_Tudu_UI.framework */; };
+		DC211EE727F5484F002B79DD /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC211EE627F5484F002B79DD /* VerifyViewController.swift */; };
 		DC4628CF27C15323006EFAB1 /* buttonXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628CE27C15323006EFAB1 /* buttonXib.xib */; };
 		DC4628D427C15338006EFAB1 /* buttonXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4628D327C15338006EFAB1 /* buttonXib.swift */; };
 		DC4628DE27C15ACA006EFAB1 /* BtnCreate.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */; };
@@ -55,6 +56,7 @@
 		AC88B47EE7D98B03B19546D3 /* Pods-Tudu_UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UITests.debug.xcconfig"; path = "Target Support Files/Pods-Tudu_UITests/Pods-Tudu_UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDC461B34B44C1339C87447C /* Pods_Tudu_UI_Tudu_UIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tudu_UI_Tudu_UIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC81950C665C6592CCF6251A /* Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig"; path = "Target Support Files/Pods-Tudu_UI-Tudu_UIUITests/Pods-Tudu_UI-Tudu_UIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC211EE627F5484F002B79DD /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		DC4628CE27C15323006EFAB1 /* buttonXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buttonXib.xib; sourceTree = "<group>"; };
 		DC4628D327C15338006EFAB1 /* buttonXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonXib.swift; sourceTree = "<group>"; };
 		DC4628DD27C15ACA006EFAB1 /* BtnCreate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BtnCreate.xib; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				DC82B51127C0CE2700EDAEA0 /* Tudu_UI.xcdatamodeld */,
 				DCCA1A9027CDC9A8001A1B12 /* HomeViewController.swift */,
 				DCCA1A9527CDF05D001A1B12 /* RegisterViewController.swift */,
+				DC211EE627F5484F002B79DD /* VerifyViewController.swift */,
 			);
 			path = Tudu_UI;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				DCCA1A9127CDC9A8001A1B12 /* HomeViewController.swift in Sources */,
 				DC4628E327C15ADD006EFAB1 /* BtnCreate.swift in Sources */,
 				DC82B50927C0CE2700EDAEA0 /* AppDelegate.swift in Sources */,
+				DC211EE727F5484F002B79DD /* VerifyViewController.swift in Sources */,
 				DC82B50B27C0CE2700EDAEA0 /* SceneDelegate.swift in Sources */,
 				DC82B51327C0CE2700EDAEA0 /* Tudu_UI.xcdatamodeld in Sources */,
 			);
